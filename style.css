@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header1{
+    background-image: url("image/header.avif");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+
+}
+.btn1{
+    background-color: white !important;
+    padding-right: 50px !important;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+}
