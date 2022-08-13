@@ -1,0 +1,255 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    /* position: relative; */
+    /* overflow-x: hidden; */
+ }
+ 
+ /* .box1{
+     background-image: url(pics/college2.jpg);
+     height: 200px;
+     text-align: center;
+    
+  }
+  .box2{
+     background-image: url(pics/collage3.jpg);
+     height:20vh;
+     text-align: center;
+     background-size: cover;
+  }
+  .box3{
+     background-image: url(pics/collage4.jpg);
+     height:20vh;
+     text-align: center;
+  } */
+ .caro {
+    height: 40em;
+ }
+ 
+ .content {
+    background-color: #d6cfcb;
+    padding-top: 3em;
+    padding-bottom: 3em;
+ }
+ 
+ /* .aboutimg{
+     padding-top: 3em;
+  } */
+ .about_us {
+    background-color: #e8c2ca;
+    padding-top: 3em;
+    padding-bottom: 3em;
+ }
+ 
+ #header {
+    height: 2em;
+    background-color: #f7d1cd;
+ }
+ 
+ .category {
+    padding: 3em;
+    background-color: #d1b3c4;
+ }
+ 
+ #footer {
+    background-color: #735d78;
+ }
+ 
+ .aboutimg {
+    /* height: 30em; */
+    width: 100%;
+ }
+ /* @media (min-width:360px) and (max-width:768px) {
+    .aboutimg {
+       /* height: 30em; */
+       /* display: none;
+    }
+ } */ 
+ 
+ .about_us p {
+    padding-left: 3em;
+ }
+ 
+ .btech {
+    background-color: #fde2e4;
+ }
+ 
+ .topbtech {
+    background-color: #ffb5d0;
+ }
+ 
+ .qna {
+    color: black;
+ }
+ 
+ .toppp {
+    background-color: #344e41;
+    background-color: #6d6875;
+ }
+ 
+ .static h1 {
+    position: absolute;
+    color: black;
+    z-index: 99;
+    left: 42%;
+    top: 35%;
+    font-size: 5em;
+ }
+ 
+ .static p {
+    display: block;
+    position: absolute;
+    color: black;
+    z-index: 99;
+    left: 25%;
+    top: 48%;
+    font-size: 2em;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    /* Adjust as needed */
+    animation:
+       typing 3.5s steps(40, end),
+       blink-caret .75s step-end infinite;
+ }
+ 
+ @media (min-width:360px) and (max-width:768px) {
+    .static p {
+ 
+       /* content: "\a";
+       white-space: pre; */
+       position: absolute;
+       color: black;
+       z-index: 99;
+       left: 2%;
+       top: 48%;
+       font-size: 11px;
+       overflow: hidden;
+       /* Ensures the content is not revealed until the animation */
+       border-right: .15em solid orange;
+       /* The typwriter cursor */
+       /* white-space: nowrap; */
+       /* Keeps the content on a single line */
+       margin: 0 auto;
+       /* Gives that scrolling effect as the typing happens */
+       letter-spacing: .15em;
+       /* Adjust as needed */
+       animation:none
+          /* typing 3.5s steps(40, end),
+          blink-caret .75s step-end infinite; */
+    }
+ 
+    .static h1 {
+       position: absolute;
+       color: black;
+       z-index: 99;
+       left: 6%;
+       top: 35%;
+       font-size: 5em;
+    }
+ }
+ 
+ /* The typing effect */
+ @keyframes typing {
+    from {
+       width: 0
+    }
+ 
+    to {
+       width: 100%
+    }
+ }
+ 
+ /* The typewriter cursor effect */
+ @keyframes blink-caret {
+ 
+    from,
+    to {
+       border-color: transparent
+    }
+ 
+    50% {
+       border-color: orange;
+    }
+ }
+ 
+ .bca {
+    background-color: #219ebc;
+ }
+ 
+ .topbca {
+    background-color: #023047;
+ }
+ 
+ .bba {
+    background-color: #e7d8c9;
+ }
+ 
+ .topbba {
+    background-color: #b2967d;
+ }
+ 
+ .bcom {
+    background-color: #62929e;
+ }
+ 
+ .topbcom {
+    background-color: #546a7b;
+ }
+ 
+ .ba {
+    background-color: #ada7c9;
+ }
+ 
+ .topba {
+    background-color: #6b6295;
+ }
+ 
+ .ballb {
+    background-color: #adb5bd;
+ }
+ 
+ .topballb {
+    background-color: #495057;
+ }
+ 
+ /* signup form */
+ .signup {
+    background-color: #b9f1ff;
+ }
+ 
+ .signformbg {
+    background-color: rgb(136, 96, 201);
+    width: 25%;
+    margin: 20px auto;
+    padding: 34px;
+    border-radius: 8px;
+    /* text-align:center; */
+ }
+ 
+ input[type=submit]:hover {
+    background-color: white;
+    color: rosybrown;
+    padding: 5px;
+    border: 0ch;
+    margin: 0%;
+    padding: 0%;
+ }
+ 
+ .card-body {
+    cursor: pointer;
+ }
+ 
+ .category a {
+    text-decoration: none;
+ }
+ .btn1{
+   border: transparent;
+   background-color: transparent;
+ }
